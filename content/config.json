@@ -1,0 +1,71 @@
+{
+  "title": "Your Site Title",
+  "description": "Your site description",
+  "favicon": "/path/to/favicon.png",
+  "nav": {
+    "logo": "logo.jpeg",
+    "title": "My Digital Garden",
+    "links": [
+      {
+        "href": "/blog",
+        "name": "Blog"
+      }
+    ],
+    "social": [
+      {
+        "label": "github",
+        "name": "GitHub Profile",
+        "href": "https://github.com/yourusername"
+      }
+    ]
+  },
+  "footer": {
+    "navigation": [
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "name": "Documentation",
+            "href": "/docs"
+          },
+          {
+            "name": "Blog",
+            "href": "/blog"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": "G-XXXXXXXXXX",
+  "showComments": false,
+  "showSidebar": true,
+  "sidebar": {
+    "orderBy": "title",
+    "paths": ["/docs"]
+  },
+  "showToc": false,
+  "contentInclude": ["/blog", "README.md"],
+  "contentExclude": ["/blog/_archive"],
+  "contentHide": ["/people"],
+  "theme": {
+    "theme": "superstack",
+    "defaultMode": "light",
+    "showModeSwitch": true
+  },
+  "redirects": [
+    { "from": "/blog/old-post", "to": "/blog/new-post" }
+  ]
+}
